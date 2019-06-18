@@ -1,0 +1,5 @@
+*.log
+*.json
+*.o
+make
+.vscode/
