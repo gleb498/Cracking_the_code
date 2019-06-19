@@ -7,7 +7,7 @@ typedef int bool;
 #define false 0
 
 void URLify(char**);
-void delete_spaces(char**);
+void delete_spaces_on_sides(char**);
 
 int main()
 {
@@ -22,7 +22,7 @@ int main()
 
 void URLify(char** str)
 {   
-    delete_spaces(str);
+    delete_spaces_on_sides(str);
 
     int len             = strlen(*str);
     int space_counter   = 0;
